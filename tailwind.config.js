@@ -11,11 +11,21 @@ module.exports = {
         '15': '3.75rem', // 60px
         '2.5': '0.625rem', // 10px
         '0.5': '0.125rem', // 2px
+        '1.5': '0.375rem', // 6px
       },
       colors: {
         'black': '#0d0d0d',
         'gray': '#3d3d3d',
-        'gray-1': '#3A3A3A',
+        'gray-1': '#bdbdbd',
+        'gray-2': '#656565',
+        'gray-3': '#cfcfcf',
+        'gray-4': '#e7e7e7',
+        'yellow': '#ff3c08',
+        'blue': '#00588b',
+        'blue-1': '#b2ccdc',
+      },
+      screens: {
+        '2xl': '1440px',
       },
       backgroundImage: {
         'map': "url('/src/asset/images/Vue.png')",

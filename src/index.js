@@ -19,18 +19,18 @@ import './styles/index.pcss'
 
 // ### #toggle-menu
 window.onload = function () {
-  let menu = document.querySelector('#toggle-menu')
-  let navigation = document.querySelector('#navigation')
-  let main = document.querySelector('#main')
+  let top_menu_info = document.querySelector('#top-menu-info')
+  // let navigation = document.querySelector('#navigation')
+  // let main = document.querySelector('#main')
   menu.addEventListener('click', (e) => {
     // console.log(e.eventPhase + 'menu')
     // if (e.eventPhase === 2) {
     // console.log('menu')
     // console.log(e.target)
     // }
-		menu.classList.toggle('active')
-		navigation.classList.toggle('active')
-		main.classList.toggle('active')
+		top_menu_info.classList.toggle('active')
+		// navigation.classList.toggle('active')
+		// main.classList.toggle('active')
   })
   // menu.click() //test
 

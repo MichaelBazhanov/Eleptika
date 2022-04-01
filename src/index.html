@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="font-montserrat selection:bg-blue-300 selection:text-blue-500 scroll-smooth">
+<html lang="en" class="font-montserrat selection:bg-yellow selection:text-white scroll-smooth">
 
 <head>
   <meta charset="UTF-8" />
@@ -13,22 +13,149 @@
   <main>
     <div class="relative w-full">
       <!-- top -->
-      <section class="container mx-auto px-4 bg-black text-white">
-        <!-- menu -->
-        <nav class="menu flex space-x-9">
-          <div class="menu__item active">Главная</div>
-          <div class="menu__item">Как выбрать?</div>
-          <div class="menu__item">Доставка</div>
-          <div class="menu__item flex items-center">
-            <span>Сборка</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
+      <section class="bg-black text-white">
+
+        <div class="container mx-auto px-4 flex justify-between py-3">
+
+          <!-- menu -->
+          <nav id="menu" class="flex space-x-9">
+            <div class="cursor-pointer font-bold">Главная</div>
+            <div
+              class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
+              Как выбрать?</div>
+            <div
+              class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
+              Доставка</div>
+            <div
+              class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
+              Сборка</div>
+            <div id="top-menu-info"
+              class="relative flex items-center cursor-pointer border-b border-gray border-dashed hover:border-white transition-colors ease-in-out duration-150">
+              <span>Инфо</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+
+              <ul class="hidden absolute left-0 top-full bg-black text-white p-2">
+                <li
+                  class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
+                  Submenu 1</li>
+                <li
+                  class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
+                  Submenu 2</li>
+                <li
+                  class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
+                  Submenu 3</li>
+              </ul>
+            </div>
+          </nav>
+          <!-- tel -->
+          <div class="flex space-x-9">
+            <div class="flex divide-x divide-gray">
+              <a href="tel:+84954771463 " class="px-2 font-bold">8 (495) 477-14-63</a>
+
+              <div class="flex items-center justify-between">
+                <a href="tel:+88003331189" class="px-2">8 (800) 333-11-89</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
+                  class="w-3 h-3 text-gray-1">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                  <path
+                    d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between space-x-7">
+
+              <div class="flex items-center justify-between text-white text-sm group cursor-pointer ">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor"
+                  class="w-4.5 h-4.5 mr-2">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98zM13 11h4c.55 0 1-.45 1-1s-.45-1-1-1h-1.59l4.31-4.31c.39-.39.39-1.02 0-1.41s-1.02-.39-1.41 0L14 7.59V6c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1z" />
+                </svg>
+                <div
+                  class="border-b border-gray border-dashed group-hover:border-white transition-colors ease-in-out duration-150">
+                  Заказать звонок</div>
+              </div>
+
+              <div class="flex items-center justify-between text-white text-sm group cursor-pointer ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                  class="w-4.5 h-4.5 mr-2">
+                  <path
+                    d="M12 4C14.2 4 16 5.8 16 8C16 10.1 13.9 13.5 12 15.9C10.1 13.4 8 10.1 8 8C8 5.8 9.8 4 12 4M12 2C8.7 2 6 4.7 6 8C6 12.5 12 19 12 19S18 12.4 18 8C18 4.7 15.3 2 12 2M12 6C10.9 6 10 6.9 10 8S10.9 10 12 10 14 9.1 14 8 13.1 6 12 6M20 19C20 21.2 16.4 23 12 23S4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21S18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19Z" />
+                </svg>
+
+                <div class="flex ">
+                  <span>Ваш город:&nbsp;</span>
+                  <span
+                    class="font-bold border-b border-gray border-dashed group-hover:border-white transition-colors ease-in-out duration-150">Москва</span>
+                </div>
+              </div>
+
+
+            </div>
           </div>
-        </nav>
-        <!-- tel -->
-        <div>1</div>
+
+        </div>
+
+      </section>
+
+
+      <section class="bg-red-100 h-10"></section>
+
+
+      <section class="bg-white">
+        <div class="container mx-auto px-4 flex justify-between items-center py-5">
+
+          <div class="flex items-center divide-x divide-gray-3">
+
+            <!-- logo -->
+            <div class="flex items-center pr-7">
+              <img src="./asset/images/logo.png" alt="logo" class="mr-3">
+              <div class="flex flex-col">
+                <h1 class="font-fedra_sans_pro text-[34px] leading-8 font-medium">Элептика</h1>
+                <h2 class="font-fedra_sans_pro text-[12.5px] font-normal text-gray-2">эллиптические тренажеры</h2>
+              </div>
+            </div>
+
+            <!-- adders -->
+            <div class="pl-7">
+              <div class="text-sm text-gray-2">Шоурум в Москве:</div>
+              <a href="#" class="text-sm flex items-center group">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"
+                  class="text-yellow w-4 h-4">
+                  <path
+                    d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                </svg>
+                <span
+                  class="ml-1.5 text-blue cursor-pointer border-b border-blue-1 border-solid group-hover:border-blue transition-colors ease-in-out duration-150">Рублевское
+                  ш., 52а</span>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- search -->
+          <label class="relative block w-full max-w-[485px]">
+            <span class="sr-only">Search</span>
+            <span class="absolute inset-y-0 right-0 flex items-center pr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 w-5 fill-gray-2">
+                <path
+                  d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z" />
+              </svg>
+            </span>
+            <input
+              class="placeholder:text-gray-2 block bg-white w-full border-2 border-gray-4 rounded-md py-2.5 pr-9 pl-4.5 focus:outline-none focus:border-yellow focus:ring-yellow focus:ring-0 sm:text-sm"
+              placeholder="Поиск среди 1 500 тренажёров!" type="text" name="search" />
+          </label>
+
+          <!-- social -->
+          <div>1</div>
+          <!-- basket -->
+          <div>2</div>
+        </div>
       </section>
 
       <!-- main -->
