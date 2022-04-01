@@ -11,51 +11,90 @@
 <body class="overflow-x-hidden">
   <main>
     <div class="relative w-full">
+      <!--
+      <div class="container pt-64">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-1/3 h-16 px-4"><div class="bg-danger h-16">1</div></div>
+          <div class="w-1/3 h-16 px-4"><div class="bg-danger h-16">2</div></div>
+          <div class="w-1/3 h-16 px-4"><div class="bg-danger h-16">3</div></div>
+        </div>
+      </div> -->
+      <!-- test -->
+      <!-- <ul class="flex -mx-10 bg-blue">
+        <li class="w-1/5 px-10 bg-red-200"><span class="bg-black w-full h-full block">1</span></li>
+        <li class="w-1/5 px-10 bg-green-100"><span class="bg-black w-full h-full block">1</span></li>
+        <li class="w-1/5 px-10 bg-yellow"><span class="bg-black w-full h-full block">1</span></li>
+        <li class="w-1/5 px-10 bg-teal-400"><span class="bg-black w-full h-full block">1</span></li>
+        <li class="w-1/5 px-10 bg-purple-400"><span class="bg-black w-full h-full block">1</span></li>
+      </ul> -->
+      <!-- test -->
+<!--
+      <div class="flow-root">
+        <div class="-m-2 flex flex-wrap">
+          <div class="m-2">1</div>
+          <div class="m-2">1</div>
+          <div class="m-2">1</div>
+        </div>
+      </div> -->
+
       <!-- top -->
       <section class="bg-black text-white">
 
-        <div class="container mx-auto px-4 flex justify-between flex-wrap py-3">
+        <div class="container mx-auto px-4 flex justify-center flex-wrap py-3">
 
-          <!-- menu -->
-          <nav id="menu" class="flex space-x-9">
-            <div class="cursor-pointer font-bold">Главная</div>
-            <div
-              class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
-              Как выбрать?</div>
-            <div
-              class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
-              Доставка</div>
-            <div
-              class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
-              Сборка</div>
-            <div id="top-menu-info"
-              class="relative flex items-center cursor-pointer border-b border-gray border-dashed hover:border-white transition-colors ease-in-out duration-150">
-              <span>Инфо</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
+            <!-- menu -->
+            <nav id="menu" class="flex flex-wrap justify-center text-center -mx-4.5">
+              <div class="px-4.5">
+                <div class="cursor-pointer font-bold ">Главная</div>
+              </div>
+              <div class="px-4.5">
+                <div
+                  class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150 whitespace-nowrap">
+                  Как выбрать?</div>
+              </div>
+              <div class="px-4.5">
+                <div
+                  class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
+                  Доставка</div>
+              </div>
+              <div class="px-4.5">
+                <div
+                  class="cursor-pointer border-b border-gray border-solid hover:border-white transition-colors ease-in-out duration-150">
+                  Сборка</div>
+              </div>
+              <div class="px-4.5">
+                <div id="top-menu-info"
+                  class="relative flex items-center cursor-pointer border-b border-gray border-dashed hover:border-white transition-colors ease-in-out duration-150">
+                  <span>Инфо</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
 
-              <ul class="hidden absolute z-[1] left-0 top-full bg-black text-white p-2">
-                <li
-                  class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
-                  Submenu 1</li>
-                <li
-                  class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
-                  Submenu 2</li>
-                <li
-                  class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
-                  Submenu 3</li>
-              </ul>
-            </div>
-          </nav>
+                  <ul class="hidden absolute z-[1] left-0 top-full bg-black text-white p-2">
+                    <li
+                      class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
+                      Submenu 1</li>
+                    <li
+                      class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
+                      Submenu 2</li>
+                    <li
+                      class="whitespace-nowrap py-1 px-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-150">
+                      Submenu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+
+
           <!-- tel -->
-          <div class="flex space-x-9">
+          <div class="flex justify-center flex-wrap w-full space-x-9">
             <div class="flex divide-x divide-gray">
-              <a href="tel:+84954771463 " class="px-2 font-bold">8 (495) 477-14-63</a>
+              <a href="tel:+84954771463 " class="px-2 font-bold whitespace-nowrap">8 (495) 477-14-63</a>
 
               <div class="flex items-center justify-between">
-                <a href="tel:+88003331189" class="px-2">8 (800) 333-11-89</a>
+                <a href="tel:+88003331189" class="px-2 whitespace-nowrap">8 (800) 333-11-89</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
                   class="w-3 h-3 text-gray-1">
                   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -67,7 +106,7 @@
 
             <div class="flex items-center justify-between space-x-7">
 
-              <div class="flex items-center justify-between text-white text-sm group cursor-pointer ">
+              <div class="flex items-center justify-between text-white text-sm group cursor-pointer whitespace-nowrap">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor"
                   class="w-4.5 h-4.5 mr-2">
                   <path d="M0 0h24v24H0V0z" fill="none" />
@@ -79,7 +118,7 @@
                   Заказать звонок</div>
               </div>
 
-              <div class="flex items-center justify-between text-white text-sm group cursor-pointer ">
+              <div class="flex items-center justify-between text-white text-sm group cursor-pointer whitespace-nowrap">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                   class="w-4.5 h-4.5 mr-2">
                   <path

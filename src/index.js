@@ -22,7 +22,7 @@ window.onload = function () {
   let top_menu_info = document.querySelector('#top-menu-info')
   // let navigation = document.querySelector('#navigation')
   // let main = document.querySelector('#main')
-  menu.addEventListener('click', (e) => {
+  top_menu_info.addEventListener('click', (e) => {
     // console.log(e.eventPhase + 'menu')
     // if (e.eventPhase === 2) {
     // console.log('menu')
