@@ -153,23 +153,23 @@
       </section>
 
       <!-- mid -->
-      <section class="bg-white">
-        <div class="container mx-auto px-4 flex justify-between flex-wrap py-5 bg-teal-50">
+      <section class="bg-black text-white sm:bg-white sm:text-black border-b-2 border-white sm:border-none">
+        <div class="container mx-auto px-5 py-2 sm:px-4 sm:py-5 flex justify-between flex-wrap ">
 
           <div>
-            <div class="inline-flex flex-wrap -mx-7">
+            <div class="flex flex-wrap -mx-7">
 
               <!-- logo -->
-              <div class="inline-flex h-full items-center border-r border-gray-3 px-7">
-                <img src="./asset/images/logo.png" alt="logo" class="mr-3">
-                <div class="flex flex-col">
+              <div class="flex items-center border-none border-r border-gray-3 md:border-solid px-7">
+                <img src="./asset/images/logo.png" alt="logo" class="sm:mr-3">
+                <div class="hidden sm:block flex flex-col">
                   <h1 class="font-fedra_sans_pro text-[34px] leading-8 font-medium">Элептика</h1>
                   <h2 class="font-fedra_sans_pro text-[12.5px] font-normal text-gray-2">эллиптические тренажеры</h2>
                 </div>
               </div>
 
               <!-- adders -->
-              <div class="inline-flex h-full flex-col px-7">
+              <div class="hidden md:flex flex-col px-7">
                 <div class="text-sm text-gray-2">Шоурум в Москве:</div>
                 <a href="#" class="text-sm flex items-center group">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"
@@ -178,7 +178,7 @@
                       d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
                   </svg>
                   <span
-                    class="ml-1.5 text-blue cursor-pointer border-b border-blue-1 border-solid group-hover:border-blue transition-colors ease-in-out duration-150">Рублевское
+                    class="ml-1.5 text-blue cursor-pointer border-b border-blue-1 border-solid group-hover:border-yellow group-hover:text-yellow transition-colors ease-in-out duration-150">Рублевское
                     ш., 52а</span>
                 </a>
               </div>
@@ -202,22 +202,22 @@
           </label>
 
           <!-- social -->
-          <div class="flex justify-center items-center space-x-2.5">
-            <a href="https://wa.me/89008880000" title="whatsapp">
-              <img src="./asset/images/whatsapp.png" alt="whatsapp" class="w-8 р-8 object-cover">
+          <div class="hidden lg:flex justify-center items-center space-x-2.5">
+            <a href="https://wa.me/89008880000" title="whatsapp" class=" hover:saturate-200 transition-all">
+              <img src="./asset/images/whatsapp.png" alt="whatsapp" class="w-8 р-8 object-cover ">
             </a>
-            <a href="tg://resolve?domain=username" title="telegram">
+            <a href="tg://resolve?domain=username" title="telegram" class=" hover:saturate-200 transition-all">
               <img src="./asset/images/telegram.png" alt="telegram" class="w-8 р-8 object-cover">
             </a>
-            <a href="viber://chat?number=%2B380950000000" title="viber">
+            <a href="viber://chat?number=%2B380950000000" title="viber" class=" hover:saturate-200 transition-all">
               <img src="./asset/images/viber.png" alt="viber" class="w-8 р-8 object-cover">
             </a>
           </div>
 
           <!-- basket -->
-          <div class="inline-flex">
+          <div class="flex -mx-2.5">
             <div
-              class="inline-flex h-full px-3 border-l border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              class="px-2.5 flex border-none border-l border-gray-3 md:border-solid -pointer transition-colors ease-in-out duration-150 hover:text-yellow">
               <a href="#" class="flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor" stroke-width="2">
@@ -228,7 +228,7 @@
             </div>
 
             <div
-              class="inline-flex h-full px-3 border-l border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              class="px-2.5 flex border-none border-l border-gray-3 md:border-solid cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
               <a href="#" class="flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor" stroke-width="2">
@@ -239,7 +239,7 @@
             </div>
 
             <div
-              class="inline-flex h-full px-3 border-l border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              class="px-2.5 flex border-none border-l border-gray-3 md:border-solid cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
               <a href="#" class="relative flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor"
                   stroke-width="2" class="h-8 w-8 fill-current">
@@ -253,8 +253,8 @@
             </div>
 
             <div
-              class="inline-flex h-full px-3 border-x border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
-              <a href="#" class="flex justify-center items-center ">
+              class="px-2.5 flex border-none border-x border-gray-3 md:border-solid cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              <a href="#" class="flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round"
@@ -266,6 +266,7 @@
         </div>
       </section>
 
+      <div class="bg-black h-3"></div>
       <!-- main -->
       <div id="main"
         class="hidden w-full left-0 absolute lg:w-[calc(100%-300px)] lg:left-[300px] min-h-screen bg-neutral-100 transition-[width,left] duration-150 ease-in-out">
