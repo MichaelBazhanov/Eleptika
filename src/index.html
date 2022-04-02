@@ -45,6 +45,7 @@
       </div>
       -->
 
+
       <!-- top -->
       <section class="bg-black text-white hidden">
 
@@ -116,7 +117,8 @@
 
             <div class="px-4.5 mt-3 md:mt-0 flex items-center justify-between -mx-3.5">
 
-              <div class="mx-3.5 flex items-center justify-between text-white text-sm group cursor-pointer whitespace-nowrap">
+              <div
+                class="mx-3.5 flex items-center justify-between text-white text-sm group cursor-pointer whitespace-nowrap">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor"
                   class="w-4.5 h-4.5 mr-2">
                   <path d="M0 0h24v24H0V0z" fill="none" />
@@ -128,7 +130,8 @@
                   Заказать звонок</div>
               </div>
 
-              <div class="mx-3.5 flex items-center justify-between text-white text-sm group cursor-pointer whitespace-nowrap">
+              <div
+                class="mx-3.5 flex items-center justify-between text-white text-sm group cursor-pointer whitespace-nowrap">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                   class="w-4.5 h-4.5 mr-2">
                   <path
@@ -149,40 +152,43 @@
 
       </section>
 
-
+      <!-- mid -->
       <section class="bg-white">
         <div class="container mx-auto px-4 flex justify-between flex-wrap py-5 bg-teal-50">
 
-          <div class="inline-flex flex-wrap">
+          <div>
+            <div class="inline-flex flex-wrap -mx-7">
 
-            <!-- logo -->
-            <div class="inline-flex h-full items-center pr-7 border-r border-gray-3">
-              <img src="./asset/images/logo.png" alt="logo" class="mr-3">
-              <div class="flex flex-col">
-                <h1 class="font-fedra_sans_pro text-[34px] leading-8 font-medium">Элептика</h1>
-                <h2 class="font-fedra_sans_pro text-[12.5px] font-normal text-gray-2">эллиптические тренажеры</h2>
+              <!-- logo -->
+              <div class="inline-flex h-full items-center border-r border-gray-3 px-7">
+                <img src="./asset/images/logo.png" alt="logo" class="mr-3">
+                <div class="flex flex-col">
+                  <h1 class="font-fedra_sans_pro text-[34px] leading-8 font-medium">Элептика</h1>
+                  <h2 class="font-fedra_sans_pro text-[12.5px] font-normal text-gray-2">эллиптические тренажеры</h2>
+                </div>
               </div>
-            </div>
 
-            <!-- adders -->
-            <div class="inline-flex h-full flex-col pl-7">
-              <div class="text-sm text-gray-2">Шоурум в Москве:</div>
-              <a href="#" class="text-sm flex items-center group">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"
-                  class="text-yellow w-4 h-4">
-                  <path
-                    d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
-                </svg>
-                <span
-                  class="ml-1.5 text-blue cursor-pointer border-b border-blue-1 border-solid group-hover:border-blue transition-colors ease-in-out duration-150">Рублевское
-                  ш., 52а</span>
-              </a>
-            </div>
+              <!-- adders -->
+              <div class="inline-flex h-full flex-col px-7">
+                <div class="text-sm text-gray-2">Шоурум в Москве:</div>
+                <a href="#" class="text-sm flex items-center group">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"
+                    class="text-yellow w-4 h-4">
+                    <path
+                      d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z" />
+                  </svg>
+                  <span
+                    class="ml-1.5 text-blue cursor-pointer border-b border-blue-1 border-solid group-hover:border-blue transition-colors ease-in-out duration-150">Рублевское
+                    ш., 52а</span>
+                </a>
+              </div>
 
+            </div>
           </div>
 
+
           <!-- search -->
-          <label class="relative flex items-center w-full max-w-[485px]">
+          <label class="hidden relative flex items-center w-full max-w-[485px]">
             <span class="sr-only">Search</span>
             <span class="absolute inset-y-0 right-0 flex items-center pr-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 w-5 fill-gray-2">
@@ -211,7 +217,18 @@
           <!-- basket -->
           <div class="inline-flex">
             <div
-              class="inline-flex h-full px-3 border-l border-gray-3  cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              class="inline-flex h-full px-3 border-l border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              <a href="#" class="flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="inline-flex h-full px-3 border-l border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
               <a href="#" class="flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor" stroke-width="2">
@@ -222,7 +239,7 @@
             </div>
 
             <div
-              class="inline-flex h-full px-3 border-l border-gray-3  cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
+              class="inline-flex h-full px-3 border-l border-gray-3 cursor-pointer transition-colors ease-in-out duration-150 hover:text-yellow">
               <a href="#" class="relative flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="currentColor"
                   stroke-width="2" class="h-8 w-8 fill-current">
