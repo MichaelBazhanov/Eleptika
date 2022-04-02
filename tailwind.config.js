@@ -26,12 +26,16 @@ module.exports = {
         'yellow-4': '#ffa920',
         blue: '#00588b',
         'blue-1': '#b2ccdc',
+        'blue-2': '#004770',
+        'blue-3': '#4f8caf',
+        'blue-4': '#357397',
       },
       screens: {
         '2xl': '1440px',
       },
       backgroundImage: {
-        bg_top_el: "url('/src/asset/images/bg-top-el2.jpg')",
+        bg_top_el: "url('/src/asset/images/bg-top-el.jpg')",
+        bg_top_el_sm: "url('/src/asset/images/bg-top-el-sm.jpg')",
       },
       boxShadow: {
         me: '0px 3px 20px rgba(0, 0, 0, 0.2)',
