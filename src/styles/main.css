@@ -25,4 +25,10 @@
   html ::-webkit-scrollbar-thumb {
     @apply rounded-sm bg-yellow;
   }
+  #breadcrumbs ::-webkit-scrollbar {
+    @apply bg-neutral-100 w-1 h-1;
+  }
+  #html ::-webkit-scrollbar-thumb {
+    @apply rounded-sm bg-yellow;
+  }
 }
