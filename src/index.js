@@ -1,6 +1,30 @@
 import './styles/index.pcss'
 
-// import $ from 'jquery' //Если она не нужна то закоммить====
+import $ from 'jquery' //Если она не нужна то закоммить====
+import 'slick-carousel'
+$(document).ready(function () {
+  $('.slider-wrapper').slick({
+    vertical: false,
+    dots: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          vertical: true,
+          dots: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows:false,
+        },
+      },
+    ],
+  })
+})
 // =========================================================
 
 // const userStack = {
@@ -20,19 +44,13 @@ import './styles/index.pcss'
 // ### #toggle-menu
 window.onload = function () {
   let top_menu_info = document.querySelector('#top-menu-info')
-  // let navigation = document.querySelector('#navigation')
-  // let main = document.querySelector('#main')
   top_menu_info.addEventListener('click', (e) => {
-    // console.log(e.eventPhase + 'menu')
     // if (e.eventPhase === 2) {
     // console.log('menu')
     // console.log(e.target)
     // }
-		top_menu_info.classList.toggle('active')
-		// navigation.classList.toggle('active')
-		// main.classList.toggle('active')
+    top_menu_info.classList.toggle('active')
   })
-  // menu.click() //test
 
   //   let svg = document.querySelector('#svg')
   //   svg.addEventListener(

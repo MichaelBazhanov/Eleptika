@@ -32,6 +32,7 @@ module.exports = {
         'blue-4': '#357397',
         'blue-5': '#edf3f7',
         'blue-6': '#a5c4d6',
+        'blue-7': '#ccdee8',
       },
       screens: {
         '2xl': '1440px',
