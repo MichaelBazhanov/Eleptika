@@ -20,6 +20,7 @@ module.exports = {
         'gray-2': '#656565',
         'gray-3': '#cfcfcf',
         'gray-4': '#e7e7e7',
+        'gray-5': '#808080',
         yellow: '#ff3c08',
         'yellow-2': '#ff3600',
         'yellow-3': '#ffa200',
@@ -29,6 +30,8 @@ module.exports = {
         'blue-2': '#004770',
         'blue-3': '#4f8caf',
         'blue-4': '#357397',
+        'blue-5': '#edf3f7',
+        'blue-6': '#a5c4d6',
       },
       screens: {
         '2xl': '1440px',
