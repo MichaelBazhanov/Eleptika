@@ -3,7 +3,7 @@ import './styles/index.pcss'
 import $ from 'jquery' //Если она не нужна то закоммить====
 import 'slick-carousel'
 $(document).ready(function () {
-  $('.slider-wrapper').slick({
+  $('.training-rear-drive').slick({
     mobileFirst: true,
     vertical: true,
     dots: true,
@@ -20,9 +20,19 @@ $(document).ready(function () {
         breakpoint: 640,
         settings: {
           vertical: false,
-          dots: true,
           infinite: true,
           slidesToShow: 4,
+          slidesToScroll: 1,
+          dots: false,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          vertical: false,
+          infinite: true,
+          slidesToShow: 5,
           slidesToScroll: 1,
           dots: false,
           arrows: true,
