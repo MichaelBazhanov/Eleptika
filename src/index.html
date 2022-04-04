@@ -462,8 +462,8 @@
       </section>
 
       <!-- Тренажер задний привод -->
-      <section class="">
-        <div class="container mx-auto px-5 pt-7 pb-5">
+      <section class="container mx-auto ">
+        <div class="px-5 pt-7 pb-5">
 
           <!-- title box -->
           <div class="xl:flex items-center justify-between">
@@ -472,7 +472,7 @@
               Топ лучших тренажеров с задним приводом</h2>
 
             <span
-              class="ml-4 inline-flex justify-center items-center w-5 h-5 cursor-pointer rounded-md border border-gray-3 text-gray-3 hover:border-yellow hover:text-yellow transition-colors xl:hidden">
+              class="training-drive-button-1 ml-4 inline-flex justify-center items-center w-5 h-5 cursor-pointer rounded-md border border-gray-3 text-gray-3 hover:border-yellow hover:text-yellow transition-colors xl:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
@@ -480,9 +480,10 @@
             </span>
 
             <span
-              class="hidden xl:flex justify-center items-center cursor-pointer rounded-md border border-gray-3 text-gray-3 hover:border-yellow hover:text-yellow transition-colors">
-              <span>Свернуть</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              class="training-drive-button-1 hidden xl:flex justify-center items-center cursor-pointer rounded-md space-x-2.5 text-blue group">
+              <span
+                class="underline decoration-dotted decoration-blue-8 decoration-1 underline-offset-[1.5px] group-hover:text-yellow group-hover:decoration-yellow transition-colors">Свернуть</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:text-yellow transition-colors" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
               </svg>
@@ -494,7 +495,7 @@
         </div>
 
         <!-- card box -->
-        <div class="container mx-auto flex flex-col text-sm xl:text-base bg-blue-5 md:flex-row">
+        <div class="training-drive-box-1 flex flex-col text-sm xl:text-base bg-blue-5 md:flex-row">
           <img src="./asset/images/bg-top-card-box-0.jpg" alt="Топ лучших тренажеров с задним приводом"
             class="w-full object-cover xl:w-[400px] xl:h-[250px]">
 
@@ -505,7 +506,8 @@
               контролировать малейшие колебания пульса. </p>
 
             <div class="flex justify-between items-center xl:mt-auto">
-              <div class="flex flex-col items-center w-full xl:flex-row pt-5 xl:pt-0 space-y-2.5 xl:space-y-0 xl:space-x-5">
+              <div
+                class="flex flex-col items-center w-full xl:flex-row pt-5 xl:pt-0 space-y-2.5 xl:space-y-0 xl:space-x-5">
                 <a href="#"
                   class="text-center bg-yellow-2 text-white w-full py-3.5 xl:px-5 xl:w-auto rounded-md hover:bg-blue-3 transition-colors whitespace-nowrap">Перейти
                   к категории</a>
@@ -524,109 +526,112 @@
           </div>
 
         </div>
-      </section>
 
-      <section class="container mx-auto px-5 pt-5 pb-7 sm:px-12 border-b border-gray-4">
-        <div class="training-rear-drive">
-          <div class="">
-            <div class="flex mb-5 sm:mb-0 sm:flex-col">
-              <img src="./asset//images/training-apparatus-1.jpg" alt="1"
-                class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
-              <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
-                <span class="text-gray-2 text-sm">Oxygen</span>
-                <a href="#"
-                  class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Satori
-                  EL HRC EXT</a>
-                <div class="sm:mt-3">
-                  <span class="font-bold text-black text-xl">35 040</span>
-                  <span class="text-black text-xl">Р</span>
+        <!-- slider -->
+        <div class="training-drive-box-1 px-5 pt-5 pb-7 sm:px-12 border-b border-gray-4">
+          <div class="training-rear-drive">
+            <div class="">
+              <div class="flex mb-5 sm:mb-0 sm:flex-col">
+                <img src="./asset//images/training-apparatus-1.jpg" alt="1"
+                  class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
+                <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
+                  <span class="text-gray-2 text-sm">Oxygen</span>
+                  <a href="#"
+                    class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Satori
+                    EL HRC EXT</a>
+                  <div class="sm:mt-3">
+                    <span class="font-bold text-black text-xl">35 040</span>
+                    <span class="text-black text-xl">Р</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="flex mb-5 sm:mb-0 sm:flex-col">
-              <img src="./asset//images/training-apparatus-2.jpg" alt="2"
-                class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
-              <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
-                <span class="text-gray-2 text-sm">Bionique</span>
-                <a href="#"
-                  class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">F-Drive
-                  X30</a>
-                <div class="sm:mt-3">
-                  <span class="font-bold text-black text-xl">321 090</span>
-                  <span class="text-black text-xl">Р</span>
+            <div class="">
+              <div class="flex mb-5 sm:mb-0 sm:flex-col">
+                <img src="./asset//images/training-apparatus-2.jpg" alt="2"
+                  class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
+                <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
+                  <span class="text-gray-2 text-sm">Bionique</span>
+                  <a href="#"
+                    class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">F-Drive
+                    X30</a>
+                  <div class="sm:mt-3">
+                    <span class="font-bold text-black text-xl">321 090</span>
+                    <span class="text-black text-xl">Р</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="flex mb-5 sm:mb-0 sm:flex-col">
-              <img src="./asset//images/training-apparatus-3.jpg" alt="3"
-                class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
-              <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
-                <span class="text-gray-2 text-sm">Bionique</span>
-                <a href="#"
-                  class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Orbitech
-                  XFA</a>
-                <div class="sm:mt-3">
-                  <span class="font-bold text-black text-xl">98 800</span>
-                  <span class="text-black text-xl">Р</span>
+            <div class="">
+              <div class="flex mb-5 sm:mb-0 sm:flex-col">
+                <img src="./asset//images/training-apparatus-3.jpg" alt="3"
+                  class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
+                <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
+                  <span class="text-gray-2 text-sm">Bionique</span>
+                  <a href="#"
+                    class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Orbitech
+                    XFA</a>
+                  <div class="sm:mt-3">
+                    <span class="font-bold text-black text-xl">98 800</span>
+                    <span class="text-black text-xl">Р</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="flex mb-5 sm:mb-0 sm:flex-col">
-              <img src="./asset//images/training-apparatus-4.jpg" alt="4"
-                class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
-              <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
-                <span class="text-gray-2 text-sm">Bionique</span>
-                <a href="#"
-                  class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">F-Drive
-                  X50</a>
-                <div class="sm:mt-3">
-                  <span class="font-bold text-black text-xl">21 790</span>
-                  <span class="text-black text-xl">Р</span>
+            <div class="">
+              <div class="flex mb-5 sm:mb-0 sm:flex-col">
+                <img src="./asset//images/training-apparatus-4.jpg" alt="4"
+                  class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
+                <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
+                  <span class="text-gray-2 text-sm">Bionique</span>
+                  <a href="#"
+                    class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">F-Drive
+                    X50</a>
+                  <div class="sm:mt-3">
+                    <span class="font-bold text-black text-xl">21 790</span>
+                    <span class="text-black text-xl">Р</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="flex mb-5 sm:mb-0 sm:flex-col">
-              <img src="./asset//images/training-apparatus-5.jpg" alt="4"
-                class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
-              <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
-                <span class="text-gray-2 text-sm">Bionique</span>
-                <a href="#"
-                  class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Titanium
-                  Masters Frontech FSA</a>
-                <div class="sm:mt-3">
-                  <span class="font-bold text-black text-xl">98 840</span>
-                  <span class="text-black text-xl">Р</span>
+            <div class="">
+              <div class="flex mb-5 sm:mb-0 sm:flex-col">
+                <img src="./asset//images/training-apparatus-5.jpg" alt="4"
+                  class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
+                <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
+                  <span class="text-gray-2 text-sm">Bionique</span>
+                  <a href="#"
+                    class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Titanium
+                    Masters Frontech FSA</a>
+                  <div class="sm:mt-3">
+                    <span class="font-bold text-black text-xl">98 840</span>
+                    <span class="text-black text-xl">Р</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="flex mb-5 sm:mb-0 sm:flex-col">
-              <img src="./asset//images/training-apparatus-5.jpg" alt="4"
-                class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
-              <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
-                <span class="text-gray-2 text-sm">Bionique</span>
-                <a href="#"
-                  class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Titanium
-                  Masters Frontech FSA</a>
-                <div class="sm:mt-3">
-                  <span class="font-bold text-black text-xl">98 840</span>
-                  <span class="text-black text-xl">Р</span>
+            <div class="">
+              <div class="flex mb-5 sm:mb-0 sm:flex-col">
+                <img src="./asset//images/training-apparatus-5.jpg" alt="4"
+                  class="w-28 h-28 lg:h-[310px] lg:w-[200px] object-contain self-center">
+                <div class="inline-block ml-7 sm:ml-0 sm:mt-6 lg:mt-0 sm:flex sm:flex-col sm:items-start">
+                  <span class="text-gray-2 text-sm">Bionique</span>
+                  <a href="#"
+                    class="sm:mt-3 block font-bold text-blue underline decoration-blue-7 decoration-1 underline-offset-[1.5px] hover:decoration-yellow leading-4 hover:text-yellow transition-colors">Titanium
+                    Masters Frontech FSA</a>
+                  <div class="sm:mt-3">
+                    <span class="font-bold text-black text-xl">98 840</span>
+                    <span class="text-black text-xl">Р</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
+
       </section>
+
 
 
 

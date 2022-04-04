@@ -2,7 +2,9 @@ import './styles/index.pcss'
 
 import $ from 'jquery' //Если она не нужна то закоммить====
 import 'slick-carousel'
+
 $(document).ready(function () {
+
   $('.training-rear-drive').slick({
     mobileFirst: true,
     vertical: true,
@@ -40,7 +42,24 @@ $(document).ready(function () {
       },
     ],
   })
+
+  // Свернуть и развернуть блок
+  let text = ['Свернуть','Развернуть']
+  $( ".training-drive-button-1" ).click(function() {
+    let span = $(this).children('span');
+    let t = $(this).children('span').text();
+
+    if (span.text() === text[0]) {
+      console.log('1')
+      span.text(text[1])
+    } else if (span.text() === text[1]) {
+      span.text(text[0])
+    }
+
+    $( ".training-drive-box-1" ).slideToggle( "fast");
+  });
 })
+
 // =========================================================
 
 // const userStack = {
