@@ -4,22 +4,28 @@ import $ from 'jquery' //Если она не нужна то закоммить
 import 'slick-carousel'
 $(document).ready(function () {
   $('.slider-wrapper').slick({
-    vertical: false,
+    mobileFirst: true,
+    vertical: true,
     dots: true,
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    dots: false,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    prevArrow:
+      "<button class='slick-prev slick-arrow' aria-label='Previous' type='button'><svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M15 19l-7-7 7-7'/></svg></button>",
+    nextArrow:
+      "<button class='slick-next slick-arrow' aria-label='Next' type='button'><svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M9 5l7 7-7 7'/></svg></button>",
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 640,
         settings: {
-          vertical: true,
+          vertical: false,
           dots: true,
           infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          arrows:false,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          dots: false,
+          arrows: true,
         },
       },
     ],
