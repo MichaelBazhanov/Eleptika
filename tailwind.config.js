@@ -61,6 +61,13 @@ module.exports = {
           '100%': { transform: 'translate(-100%, 0)', opacity: '0%' },
         },
       },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
+      }
     },
   },
   plugins: [require('tailwind-scrollbar')],
