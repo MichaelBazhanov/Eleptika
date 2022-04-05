@@ -45,17 +45,18 @@ $(document).ready(function () {
     })
   })
 
-  // ---------------------------------------------------------------------------------
   // Свернуть и развернуть блок
   let text = ['Свернуть', 'Развернуть']
-  $('.training-drive-button-1, .training-drive-button-2').each(function (
+  $('.training-drive-button-1, .training-drive-button-2, .training-drive-button-3, .training-drive-button-4, .training-drive-button-5, .training-drive-button-6, .training-drive-button-7').each(function (
     index,
     value,
   ) {
     $(value).click(function () {
       //Работа с ребенком
       let child = '.' + $(this).attr('data-child')
+      console.log(child)
       let span = $(child)
+      console.log(span.text())
 
       if (span.text() === text[0]) {
         span.text(text[1])
@@ -73,25 +74,6 @@ $(document).ready(function () {
       }, 0)
     })
   })
-  // ---------------------------------------------------------------------------------
-
-  // $('.training-drive-button-1').click(function () {
-  //   let span = $(this).children('span')
-  //   let t = $(this).children('span').text()
-
-  //   if (span.text() === text[0]) {
-  //     span.text(text[1])
-  //   } else if (span.text() === text[1]) {
-  //     span.text(text[0])
-  //   }
-
-  //   $('.training-drive-box-1').slideToggle('fast')
-
-  //   //Обновление инициализации слайдера
-  //   setTimeout(function () {
-  //     $('.training-slider').slick('setPosition')
-  //   }, 0)
-  // })
 })
 
 // ### #toggle-menu
