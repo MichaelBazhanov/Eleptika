@@ -54,9 +54,7 @@ $(document).ready(function () {
     $(value).click(function () {
       //Работа с ребенком
       let child = '.' + $(this).attr('data-child')
-      console.log(child)
       let span = $(child)
-      console.log(span.text())
 
       if (span.text() === text[0]) {
         span.text(text[1])
