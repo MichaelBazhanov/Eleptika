@@ -91,5 +91,5 @@ module.exports = {
       },
     ],
   },
-  devtool: mode === 'production' ? 'none' : 'eval-cheap-module-source-map',
+  devtool: mode === "production" ? "hidden-nosources-source-map" : "eval-cheap-module-source-map",
 }
